@@ -1,71 +1,39 @@
-# 🌟 TypeScript & JavaScript Basics
+🎯 Basic Data Types in TypeScript
+✅ number
+👉 সংখ্যা, যেমন: ১, ৩.১৪, -৭ ইত্যাদি।
 
----
+✅ string
+👉 লেখা বা টেক্সট, যেমন: "Hello", 'ChatGPT' ইত্যাদি।
 
-## ❓ What is TypeScript?
+✅ boolean
+👉 সত্য (true) বা মিথ্যা (false)।
 
-TypeScript is a structured, object-oriented programming language developed by Microsoft. It is a **superset of JavaScript**, meaning it includes all JavaScript syntax and features, with added static typing and advanced tools.
+✅ array
+👉 একাধিক মানের তালিকা, যেমন: [১, ২, ৩], ["apple", "banana"]।
 
----
+✅ tuple
+👉 নির্দিষ্ট ক্রমে একাধিক মান, যেমন: [string, number]।
 
-## 🌐 Where is TypeScript Used?
+✅ enum
+👉 প্রি-ডিফাইনড অপশন, যেমন: enum Direction {Up, Down, Left, Right}।
 
-- TypeScript is popular for **server-side development** and **large-scale applications**.
-- It uses **static typing** – without specifying the type of a variable, the code won’t run.
-- This feature makes **error detection easy and reliable**.
+✅ any
+👉 যেকোনো ধরনের মান।
 
----
+✅ void
+👉 কোনো রিটার্ন ভ্যালু নেই এমন ফাংশনে ব্যবহৃত হয়।
 
-## 🔍 Difference Between TypeScript & JavaScript
+✅ null & undefined
+👉 শূন্য বা ডিফাইন না করা মান।
 
-- **JavaScript:** Dynamic language; variable types are determined at runtime.
-- **TypeScript:** Superset of JavaScript with **static typing**, catching errors before compilation.
-- TypeScript code ultimately **compiles to JavaScript**, so it can run anywhere JS runs.
+✅ object
+👉 কী-ভ্যালু জোড়া, যেমন: {name: "Tom", age: ২৫}।
 
----
+✅ never
+👉 ফাংশন যেটা কখনো রিটার্ন করবে না।
 
-## 🚀 Why Learn TypeScript?
+✅ unknown
+👉 টাইপ অজানা বা পরে নির্ধারণ করা হবে।
 
-- **Reduces bugs** during development.
-- **Improves readability** and maintainability for large projects.
-- Supported by modern frameworks like **React, Angular, Vue**.
-- Helps developers become **more productive** and confident in their code.
-
----
-
-## 🎯 Main Types in JavaScript
-
-✅ **Primitive Types**
-
-- `string`
-- `number`
-- `boolean`
-- `null`
-- `undefined`
-- `symbol`
-- `bigint`
-
-✅ **Non-Primitive Types (Objects)**
-
-- `object`
-- `array`
-- `function`
-
----
-
-## 🎯 Main Types in TypeScript
-
-✅ `number`  
-✅ `string`  
-✅ `boolean`  
-✅ `array`  
-✅ `tuple`  
-✅ `enum`  
-✅ `any`  
-✅ `void`  
-✅ `null & undefined`  
-✅ `object`  
-✅ `never`  
-✅ `unknown`
-
----
+✅ এগুলোই মূলত TypeScript-এর প্রধান Basic Data Types।
+আরো ডিটেইল বা উদাহরণ দরকার হলে জানিও! 🚀✨😊
