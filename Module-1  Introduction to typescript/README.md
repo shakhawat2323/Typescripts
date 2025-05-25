@@ -1,7 +1,3 @@
-# 🌟 TypeScript & JavaScript Basics
-
----
-
 ## ❓ What is TypeScript?
 
 TypeScript is a structured, object-oriented programming language developed by Microsoft. It is a **superset of JavaScript**, meaning it includes all JavaScript syntax and features, with added static typing and advanced tools.
@@ -67,5 +63,3 @@ TypeScript is a structured, object-oriented programming language developed by Mi
 ✅ `object`  
 ✅ `never`  
 ✅ `unknown`
-
----
